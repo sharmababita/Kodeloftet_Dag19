@@ -18,4 +18,19 @@ addButton.addEventListener('click', function () {
   todoList.appendChild(todoItem);
 
   inputField.Value = '';
+
+  const deleteItem = document.createElement("button");
+  deleteItem.textContent = "Slett";
+  todoItem.appendChild(deleteItem);
+
+  const FinishItem = document.createElement("button");
+  FinishItem.textContent= "Remove";
+  todoItem.appendChild(FinishItem);
+
+  
+
+
 });
+
+// Lag en variable som lager en knapp for  ferdig
+
